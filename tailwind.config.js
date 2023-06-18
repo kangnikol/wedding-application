@@ -2,7 +2,12 @@
 export default {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        domine: ["Domine", "serif"],
+        dm: ["DM Serif Text", "serif"],
+      },
+    },
   },
   plugins: [],
 }
